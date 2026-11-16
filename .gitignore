@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build files
+dist/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Frontend local environment
+client/.env.local
+client/.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Coverage
+coverage/
+
+# Operating system
+.DS_Store
+Thumbs.db
